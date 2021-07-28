@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+    letter-spacing: normal;
+    background-color: #C6734A;
+}
+h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 60px;
+    color: #C6734A;
+    letter-spacing: 0.1;
+    background-color: #FFC68C;
+}
+h1 img {
+    height: 100px;
+    width: auto;
+    background-color: #FFC68C;
+}
+.colunas {
+    display: flex;
+}
+.colesq {
+    flex: 1;
+    color: #000;
+    text-align: left;
+    font-size: 20px;
+    line-height: 22px;
+    padding: 10px 20px;
+}
+.colesq h2 {
+    text-align: left;
+    font-size: 50px;
+    margin: 40px 0;
+}
+ol {
+    margin-left: 20px;
+}
+ol li {
+    margin-bottom: 20px;
+}
+.coldir {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.func {
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+    width: 200px;
+    height: 230px;
+    display: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.vis {
+    display: block;
+}
+.func h3 {
+    margin: 10px 0;
+}
+.func img {
+    height: 90px;
+    width: auto;
+}
+.func, .func h3, .func img, .func p {
+    background-color: #FFF;
+}
